@@ -33,3 +33,14 @@ var zahed={
         fav_song:"100 miles,Har kala korlam re!"
     }
 }
+
+
+// console.log(zahed['life']); simple array vsalue access korar jonno
+
+// how to access nested array value
+
+
+var result=zahed['hiding']['life']
+
+console.log(result);
+
