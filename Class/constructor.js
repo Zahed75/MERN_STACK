@@ -6,3 +6,12 @@ class MyClass{
 }
 
 new MyClass(); //object make
+
+
+class Friend{
+    constructor(a,b){
+        console.log(a+b);
+    }
+}
+
+new Friend(10,30);
