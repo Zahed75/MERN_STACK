@@ -9,10 +9,14 @@ class Parent{
 }
 
 class child extends Parent{
-
+    loan(){
+        console.log("Loan Has Been Cleared!")
+    }
 }
 
 var obj=new Parent();
+var obj=new child();
 
 obj.property();
+obj.loan();
 
