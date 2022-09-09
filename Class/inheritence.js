@@ -13,11 +13,20 @@ fun2(){
 }
 
 
+
+
 class child extends parent{
 
 
 }
 
 var obj=new child();
+
+obj.fun1();
+obj.fun2();
+
+
+//Object made from parent
+var obj=new parent();
 
 obj.fun1();
